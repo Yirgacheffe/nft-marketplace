@@ -47,4 +47,34 @@ OpenSea offers several additional options. So, we also need to compile a list of
 - **Ratings**
 </br>Ratings are a great way to help new users choose NFTs. Plus, they act as a reward for the best top sellers, confirming their reliability. So you can use this as an additional feature.
 
-## Architecture Assumption
+## How It Works
+
+1. User choose a **Digital Wallet** and sign-up on the platform.
+2. Creator of digital collectibles create their digital assets, create **NFTs**, and upload their **Digital Assets**.
+3. The product listings feature of the eCommerce platform displays the digital collectibles.
+4. Seller can specify a **Fixed Price** or conduct an **Auction**.
+5. The eCommerce marketplace helps users execute sales and auctions.
+6. Finally, the online store processes the transfer of **Digital Assets** and **Money**.
+
+
+
+## Architecture
+
+
+
+## Techniquies Decision
+
+The implementation of NFT marketplace is similar to any other e-Commercial web application, there are bunch of techniquies could be used, take the following table as a guidance.
+
+NO.   | Name                   | Primary Choosen [Option]    | Description
+----- | ---------------------- | --------------------------- | ------------------------
+1     | Blockchain             | Ethereum                    |
+2     | Token Standard         | ERC721, ERC1155             |
+3     | Smart Contract         | Ethereum Virtual Machine    |
+4     | Languages              | Vue, Java, [Go]             |
+5     | RDBMS                  | MySQL [MariaDB, PgSQL]      |
+6     | NoSQL DB               | MongoDB                     |
+7     | Search Engine          | ElasticSearch               |
+8     | Cache                  | Redis                       |
+9     | Distributed Store      | IPFS                        | Peer-to-Peer protocal to preserve file, website and data.
+10    | Message Broker         | RabbitMQ [Kafka]            |
