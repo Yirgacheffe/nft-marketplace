@@ -61,8 +61,7 @@ OpenSea offers several additional options. So, we also need to compile a list of
 ## Architecture
 
 
-
-## Techniquies Decision
+## Techniquie Decision
 
 The implementation of NFT marketplace is similar to any other e-Commercial web application, there are bunch of techniquies could be used, take the following table as a guidance.
 
